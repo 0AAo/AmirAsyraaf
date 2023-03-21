@@ -44,6 +44,7 @@ nav ul{
 	padding: 10px 20px;
 	border-radius: 30px;
 	transition: transform .4s;
+	font-size: 15px;
 }
 
 nav ul li {
