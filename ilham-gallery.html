@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Virtual Tourism</title>
+
+	<link rel="stylesheet" type="text/css" href="css/ilham-gallery.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+	<!---Navigation Bar Started--->
+	<nav class="navbar">
+	  <div id="trapezoid">
+	    <a href="index.html" class="expandHome">Home</a>
+	    <a href="profile.html" class="expandHome">About</a>
+	    <a href="ilham-gallery.html" class="expandHome">Ilham Gallery</a>
+	    <a href="#About" class="expandHome">Karyaneka</a>
+	    <a href="#Subscribe" class="expandHome">Subcribe</a>
+	  </div>
+	</nav>
+	<!---Navigation Bar End--->
+
+
+	<!---Welcome Section Started--->
+	<section id="ILHAM GALLERY">
+		<div class="Ilham">
+			<div class="Ilham-headline">
+				<h1>ILHAM GALLERY</h1>
+				<hr>
+				<div class="row">
+					<div class="column">
+						<h2>ILHAM GALLERY</h2>
+						<p>The public art gallery ILHAM Gallery is dedicated to supporting the growth, comprehension, and appreciation of contemporary and modern Malaysian art in a regional and global context. The goal of ILHAM Gallery is to appeal to a wide range of people and be a resource for people who are already involved in the arts and for people for whom art is a new experience. We aim to bring people closer to the art, the artists, and their ideas through public programs and exhibitions.</p>
+					</div>
+					<div class="column">
+						<img src="img/section-1.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!---Welcome Section End--->
+		
+		
+	<!---Ilham Logo Started--->
+	<section id="ILHAM LOGO">
+		<div class="Ilham">
+			<div class="Ilham-headline">
+				<h1>The ILHAM Logo</h1>
+				<hr>
+				<div class="row">
+					<div class="column">
+						<img src="img/logo.jpg">
+					</div>
+					<div class="column">
+						<h2>The ILHAM logo was designed by AMIR-ALEXANDROS AFENDRAS.</h2>
+						<h3>Logo rationale:</h3>
+						<p>The ILHAM Tower's architectural style served as inspiration for the logo for the ILHAM Gallery. The ILHAM Tower's distinctive metal accent is combined with blue geometric shapes that represent contemporary art in the logomark. These shapes can be altered to reflect the artwork on display, similar to a color palette that can be changed. To complement the logomark, a strong yet simple typeface with a similar weight and angles was selected.</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!---Ilham Logo End--->
+
+
+	<!---Ilham gallery Started--->
+	<section id="ILHAM GALLERY">
+		<h1>ILHAM GALLERY PICTURE</h1>
+		<hr>
+	</section>
+	<!---Ilham gallery End--->
+
+
+	<!---ILHAM GALLERY 3D ART Started--->
+	<section id="ILHAM GALLERY 3D ART">
+		<h1>ILHAM GALLERY 3D ART</h1>
+		<hr>
+	</section>
+	<!---ILHAM GALLERY 3D ART End--->
+
+
+	<!---FIND US Started--->
+	<section id="FIND US">
+		<h1>FIND US</h1>
+		<hr>
+	</section>
+	<!---FIND US End--->
+
+
+	<!---Footer Started--->
+	<footer>
+		<p>Amir <span>Asyraaf</span></p>
+		<p>Follow me on:</p>
+		<div class="sosial" id="Subscribe">
+				<a class="sosial-button" href="https://www.facebook.com/amir.asyraaf1194"><i class="fa-brands fa-facebook-f"></i></a>
+				<a class="sosial-button" href="https://www.instagram.com/amir.asyraaf.94/"><i class="fa-brands fa-instagram"></i></a>
+				<a class="sosial-button" href="https://www.youtube.com/channel/UCUPjfQfSH2v14N2xFWpbW1g"><i class="fa-brands fa-youtube"></i></a>
+		</div>
+		<p class="end">@CopyRight By Amir Asyraaf</p>
+	</footer>
+	<!---Footer End--->
+
+</body>
+
+	<!---Js Started--->
+	<script>
+		$('.expandHome').mouseover(function() {
+			$('.sub-home').css({
+				'display': 'block'
+			});
+		});
+		$('.subnavbtn').mouseover(function() {
+			$('.sub-home').css({
+				'display': 'none'
+			});
+		});
+
+		$('#trapezoid').mouseleave(function() {
+		  $('#trapezoid').css({
+		        'margin-top': '-53px'
+		    }); 
+		    $('.sub-home').css({
+		        'display': 'none'
+		    }); 
+		}).mouseenter(function() {
+		  $('#trapezoid').css({
+		        'margin-top': '0px'
+		    }); 
+		});
+	</script>
+	<!---Js End--->
+
+              
+</html>
+
