@@ -29,7 +29,11 @@
 	<section id="ILHAM GALLERY">
 		<div class="Ilham">
 			<div class="Ilham-headline">
-				<h1>ILHAM GALLERY</h1>
+				<h1>
+					<a style="text-decoration: none;" href="" class="typewrite" data-period="2000" data-type='["WELCOME TO ILHAM GALLERY", "SELAMAT DATANG KE ILHAM GALLERY" ]'>
+						<span class="wrap"></span>
+					</a>
+				</h1>
 				<hr>
 				<div class="row">
 					<div class="column">
@@ -69,12 +73,77 @@
 	<!---Ilham Logo End--->
 
 
-	<!---Ilham gallery Started--->
+	<!---Karyaneka gallery Started--->
 	<section id="ILHAM GALLERY">
 		<h1>ILHAM GALLERY PICTURE</h1>
 		<hr>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+		  		<img src="img/s11.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s12.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s13.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s14.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s15.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s16.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s17.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s18.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s19.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s20.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s21.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s22.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s23.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s24.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s25.jpg" style="width:100%">
+			</div>
+			<br>
+			<div style="text-align:center">
+				<span class="dot"></span> 
+			  	<span class="dot"></span> 
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span> 
+			</div>
+		</div>
 	</section>
-	<!---Ilham gallery End--->
+	<!---Karyaneka gallery End--->
 
 
 	<!---ILHAM GALLERY 3D ART Started--->
@@ -175,6 +244,36 @@
 		});
 	</script>
 	<!---Js End--->
+
+
+	<!---Slide photo Started--->
+	<script>
+		let slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+	<!---Slide photo End--->
+
+
+	<!---Typewriter Started--->
+	<script src="js/my-trip.js"></script>
+	<!---Typewriter End--->
 
               
 </html>

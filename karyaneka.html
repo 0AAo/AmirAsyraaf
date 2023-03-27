@@ -29,7 +29,11 @@
 	<section id="KARYANEKA">
 		<div class="karyaneka">
 			<div class="karyaneka-headline">
-				<h1>WELCOME TO KARYANEKA</h1>
+				<h1>
+					<a style="text-decoration: none;" href="" class="typewrite" data-period="2000" data-type='["WELCOME TO KARYANEKA", "SELAMAT DATANG KE KARYANEKA" ]'>
+						<span class="wrap"></span>
+					</a>
+				</h1>
 				<hr>
 				<div class="row">
 					<div class="column">
@@ -47,44 +51,34 @@
 		
 		
 	<!---Karyaneka Logo Started--->
-	<section id="ILHAM LOGO">
-		<div class="Ilham">
-			<div class="Ilham-headline">
+	<section id="KARYANEKA CRAFT">
+		<div class="Karyaneka">
+			<div class="Karyaneka-headline">
 				<h1>KARYANEKA CRAFT</h1>
 				<hr>
-				<div class="row">
-					<div class="column">
-						<h2>Karyaneka Craft</h2>
-						<p>Karyaneka offers a wide range of Malaysian handicrafts, including:</p>
-						<br>
-						<table>
-							<tbody>
-								<tr>
-									<td><b>Textiles:</td>
-									<td>Karyaneka offers a variety of traditional textiles, including batik, songket, and pua kumbu. These textiles are often made using intricate patterns and designs, and they are highly prized for their beauty and craftsmanship.</td>
-								</tr>
-								<tr>
-									<td><b>Woodcarvings:</td>
-									<td>Karyaneka sells a variety of woodcarvings, including figurines, masks, and traditional household items. These woodcarvings are often made using traditional techniques and feature intricate designs and patterns.</td>
-								</tr>
-								<tr>
-									<td><b>Pottery:</td>
-									<td>Karyaneka offers a range of pottery items, including vases, bowls, and plates. These pottery items are often decorated with traditional designs and motifs, and they are highly valued for their beauty and craftsmanship.</td>
-								</tr>
-								<tr>
-									<td><b>Basketry:</td>
-									<td>Karyaneka sells a variety of baskets made from materials such as bamboo, rattan, and pandan leaves. These baskets are often used for storing and carrying items, and they feature unique designs and patterns.</td>
-								</tr>
-								<tr>
-									<td><b>Silverware:</td>
-									<td>Karyaneka offers a range of silverware items, including jewelry, bowls, and utensils. These silverware items are often intricately designed and highly prized for their beauty and craftsmanship.</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="column">
-						<img src="img/section-2.jpg">
-					</div>
+				<h2>Karyaneka Craft</h2>
+				<p>Karyaneka offers a wide range of Malaysian handicrafts, including:</p>
+				<div class="wrap">
+					<article>
+						<h3>Textiles:</h3>
+						<p>Karyaneka offers a variety of traditional textiles, including batik, songket, and pua kumbu. These textiles are often made using intricate patterns and designs, and they are highly prized for their beauty and craftsmanship.</p>
+					</article>
+					<article>
+						<h3>Woodcarvings:</h3>
+						<p>Karyaneka sells a variety of woodcarvings, including figurines, masks, and traditional household items. These woodcarvings are often made using traditional techniques and feature intricate designs and patterns.</p>
+					</article>
+					<article>
+						<h3>Pottery:</h3>
+						<p>Karyaneka offers a range of pottery items, including vases, bowls, and plates. These pottery items are often decorated with traditional designs and motifs, and they are highly valued for their beauty and craftsmanship.</p>
+					</article>
+					<article>
+						<h3>Basketry:</h3>
+						<p>Karyaneka sells a variety of baskets made from materials such as bamboo, rattan, and pandan leaves. These baskets are often used for storing and carrying items, and they feature unique designs and patterns.</p>
+					</article>
+					<article>
+						<h3>Silverware:</h3>
+						<p>Karyaneka offers a range of silverware items, including jewelry, bowls, and utensils. These silverware items are often intricately designed and highly prized for their beauty and craftsmanship.</p>
+					</article>
 				</div>
 			</div>
 		</div>
@@ -96,6 +90,51 @@
 	<section id="KARYANEKA">
 		<h1>KARYANEKA GALLERY PICTURE</h1>
 		<hr>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+		  		<img src="img/s1.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s2.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s3.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s4.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s5.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s6.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s7.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s8.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s9.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+		  		<img src="img/s10.jpg" style="width:100%">
+			</div>
+			<br>
+			<div style="text-align:center">
+				<span class="dot"></span> 
+			  	<span class="dot"></span> 
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span>
+			  	<span class="dot"></span> 
+			</div>
+		</div>
 	</section>
 	<!---Karyaneka gallery End--->
 
@@ -198,6 +237,36 @@
 		});
 	</script>
 	<!---Js End--->
+
+
+	<!---Slide photo Started--->
+	<script>
+		let slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+	<!---Slide photo End--->
+
+
+	<!---Typewriter Started--->
+	<script src="js/my-trip.js"></script>
+	<!---Typewriter End--->
 
               
 </html>
